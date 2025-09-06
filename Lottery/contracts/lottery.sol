@@ -3,11 +3,12 @@ pragma solidity 0.8.28;
 
 contract Lottery{
 
-    event Lottery_Winner(address indexed winner, uint256 indexed amount);
     
     address public manager;
     address payable[] public participants;
 
+    event Lottery_Winner(address indexed winner, uint256 indexed amount);
+    
     constructor(){
         manager = msg.sender;
     }
