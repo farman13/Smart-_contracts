@@ -1,0 +1,35 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "wins",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"wins","type":"map(address,uint256)"}
+			]
+		},
+		{
+			"name": "loses",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"loses","type":"map(address,uint256)"}
+			]
+		}
+	],
+	"getters": [
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"wins","type":"map(address,uint256)"},
+		{"name":"loses","type":"map(address,uint256)"}
+	]
+}

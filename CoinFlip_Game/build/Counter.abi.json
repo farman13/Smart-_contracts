@@ -1,0 +1,49 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "inc",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "incBy",
+			"inputs": [
+				{"name":"by","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "x",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"x","type":"uint256"}
+			]
+		}
+	],
+	"getters": [
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "Increment",
+			"inputs": [
+				{"name":"by","type":"uint256"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"x","type":"uint256"}
+	]
+}
